@@ -15,6 +15,8 @@ class ViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
         
     }
     
+    
+    
     var mangers: CBPeripheralManager?
     // save image
     let coverPath = NSHomeDirectory() + "/Documents/CoverPage/"
